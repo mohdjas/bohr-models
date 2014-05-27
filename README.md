@@ -1,8 +1,13 @@
+DISCLAIMER: This program oes not output scientifically accurate models. There are lots of minor details and rules (stable half-filled orbitals for one) that I hadn't considered when writing this.
+
+
 DESCRIPTION:
+
 Program to generate PNG files of Bohr atomic models of all elements in the periodic table.
 
 
 USAGE AND OUTPUT:
+
 usage: orbitals image-size background-colour
 
 image-size is the size of the image. For optimal display, a size of greater than 1250px is recommended. 
@@ -14,6 +19,7 @@ The output files will be named after the symbol of the element. Eg: 'Au.png' for
 Tested on Ubuntu 13.10 x86 with gcc 4.8.1.
 
 PREREQUISITES:
+
 Requires the PNGwriter library (http://pngwriter.sourceforge.net/).
 
 
